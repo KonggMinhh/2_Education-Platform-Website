@@ -484,3 +484,21 @@ a {
     color: #ffffff;
     background: #ffb900;
 }
+/* Featured 2 */
+.featured-2nd {
+    margin-top: 70px;
+}
+.featured-2nd .body {
+    flex-direction: row-reverse;
+}
+.featured-2nd .images img {
+    width: 470px;
+    height: 440px;
+    border-radius: 20px;
+}
+.featured-2nd .content {
+    width: 49%;
+}
+.featured-2nd .content .desc {
+    margin-bottom: unset;
+}

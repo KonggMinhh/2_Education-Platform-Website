@@ -374,9 +374,15 @@ a {
     margin-top: 135px;
     padding: 96px 0;
 }
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
 .feedback-list .feedback-item {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 .feedback-item .info .avatar {
     width: 72px;

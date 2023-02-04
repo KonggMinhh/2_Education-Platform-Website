@@ -470,7 +470,7 @@ a {
 .featured .content .desc {
     margin: 16px 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.75;
     color: #5f5b53;
 }
@@ -549,7 +549,7 @@ a {
     display: inline-flex;
     align-items: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 1.86;
     color: #5f5b53;
     padding-bottom: 12px;
@@ -592,4 +592,67 @@ a {
     margin-top: 38px;
     display: flex;
     justify-content: center;
+}
+/* Footer */
+.footer {
+    background: #2e2100;
+    padding-top: 96px;
+}
+.footer .row {
+    display: flex;
+    border-bottom: 1px solid #59554b;
+    padding-bottom: 38px;
+}
+.footer .row .column {
+    width: 22%;
+}
+.footer .row .column:first-child {
+    width: 35%;
+}
+.footer .row .desc {
+    margin: 18px 0;
+    max-width: 267px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+.footer .row .social {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+.footer .row .title {
+    margin-bottom: 28px;
+    padding: 14px 48px 14px 0;
+    display: inline-block;
+    border-bottom: 1px solid #59554b;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+.footer .list a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    margin-bottom: 12px;
+}
+.footer .list li:last-child a {
+    margin-bottom: 0;
+}
+.footer .list strong {
+    color: #ffffff;
+}
+.footer .copy-right {
+    padding: 28px 0;
+    text-align: center;
+}
+.footer .copy-right p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #807d74;
 }

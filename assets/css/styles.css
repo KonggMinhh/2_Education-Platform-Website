@@ -304,7 +304,7 @@ a {
     gap: 30px;
 }
 .courses-list .course-item {
-    flex: 1;
+    width: 33.33%;
     background: #ffffff;
     border: 1px solid #e2dfda;
     border-radius: 12px;
